@@ -1,13 +1,23 @@
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 .img-all {
-    height: auto;
-    max-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
+.header {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.container-header {
+	margin-top: 30px;
+	text-align: center;
+}
