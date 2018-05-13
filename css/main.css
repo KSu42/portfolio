@@ -60,7 +60,7 @@
 		display: flex;
 	}
 	.header-img {
-		content: url("http://via.placeholder.com/100x100");
+		content: url("http://via.placeholder.com/120x120");
 	}
 	.header-logo {
 		justify-content: flex-start;
@@ -68,19 +68,20 @@
 	}
 	.header-text {
 		justify-content: flex-end;
+		width: 80%;
+		padding-right: 40px;
 	}
 	.text-header-name {
-		font-size: 40px;
-		padding-left: 20px;
-	}
-	.text-item {
-		font-size: 22px;
-	}
-	.text-heading-1 {
 		font-size: 35px;
 	}
-	.text-heading {
+	.text-item {
 		font-size: 18px;
+	}
+	.text-heading-1 {
+		font-size: 30px;
+	}
+	.text-heading {
+		font-size: 16px;
 	}
 }
 
@@ -92,6 +93,18 @@
 	.featured-item {
 		flex-grow: 1;
 		flex-shrink: 0;
+	}
+	.text-header-name {
+		font-size: 40px;
+	}
+	.text-item {
+		font-size: 22px;
+	}
+	.text-heading-1 {
+		font-size: 35px;
+	}
+	.text-heading {
+		font-size: 18px;
 	}
 }
 
