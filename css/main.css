@@ -2,7 +2,7 @@
 *:before,
 *:after {
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Marcellus SC', serif;
 	margin: 0;
 	padding: 0;
 }
@@ -18,7 +18,11 @@
 
 .header {
 	text-align: center;
-	margin-top: 40px;
+}
+
+.header-logo {
+	padding: 0% 10% 0% 10%;
+	height: 200px;
 }
 
 .container {
@@ -55,21 +59,37 @@
  */
 
 @media screen and (min-width: 450px) {
+	.container-top {
+		margin-top: 0px;
+	}
 	.header {
 		text-align: right;
 		display: flex;
+		height: 150px;
+		justify-content: space-evenly;
+		margin-top: 40px;
+	}
+	.header-desc,
+	.header-name {
+		vertical-align: bottom;
 	}
 	.header-img {
-		content: url("http://via.placeholder.com/120x120");
+		/* height: 120px; */
+		margin-bottom: 20px;
 	}
 	.header-logo {
-		justify-content: flex-start;
+		/* justify-content: flex-start; */
 		padding-left: 40px;
+		width: 50%;
+		text-align: left;
+		height: 120px;
 	}
 	.header-text {
-		justify-content: flex-end;
-		width: 80%;
-		padding-right: 40px;
+		/* justify-content: flex-end; */
+		width: 50%;
+		padding-right: 20px;
+		text-align: center;
+		vertical-align: bottom;
 	}
 	.text-header-name {
 		font-size: 35px;
@@ -93,6 +113,9 @@
 	.featured-item {
 		flex-grow: 1;
 		flex-shrink: 0;
+	}
+	.header-img {
+		height: 150px;
 	}
 	.text-header-name {
 		font-size: 40px;
