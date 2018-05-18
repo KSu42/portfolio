@@ -14,15 +14,17 @@
 
 .hero-img {
 	width: 100%;
+	max-width: 675px;
+	max-height: 450px;
 }
 
 .header {
 	text-align: center;
+	margin-top: 20px;
 }
 
-.header-logo {
-	/* padding: 0% 10% 0% 10%; */
-	height: 200px;
+.header-img {
+	height: 60px;
 }
 
 .container {
@@ -58,39 +60,13 @@
  *
  */
 
-@media screen and (min-width: 450px) {
-	.container-top {
-		margin-top: 0px;
-	}
-	.header {
-		text-align: right;
-		display: flex;
-		/* height: 150px; */
-		justify-content: space-evenly;
-		margin-top: 40px;
-	}
-	.header-desc,
-	.header-name {
-		vertical-align: bottom;
-	}
+@media screen and (max-width: 400px) {
 	.header-img {
-		height: 120px;
-		margin-bottom: 20px;
+		max-width: 100%;
 	}
-	.header-logo {
-		/* justify-content: flex-start; */
-		/* padding-left: 40px; */
-		width: 50%;
-		text-align: left;
-		height: 120px;
-	}
-	.header-text {
-		/* justify-content: flex-end; */
-		width: 50%;
-		padding-right: 20px;
-		text-align: center;
-		vertical-align: bottom;
-	}
+}
+
+@media screen and (min-width: 450px) {
 	.text-header-name {
 		font-size: 35px;
 	}
@@ -105,7 +81,19 @@
 	}
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 675px) {
+	.container-top {
+		margin-top: 0px;
+	}
+	.header {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 10px 20px;
+		margin-top: 10px;
+	}
 	.featured {
 		display: flex;
 		flex-wrap: wrap;
@@ -138,5 +126,3 @@
 		margin-right: auto;
 	}
 }
-
-/* Credit to Joe Mesot for help with 'Thinking In Code' */
