@@ -32,6 +32,10 @@
 	margin-top: 40px;
 }
 
+.featured-img {
+	max-width: 300px;
+}
+
 .featured-item {
 	margin: 20px 40px;
 }
