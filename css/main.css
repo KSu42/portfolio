@@ -43,6 +43,7 @@
 .featured-item {
 	flex-grow: 1;
 	flex-shrink: 0;
+	padding-top: 20px;
 }
 
 .featured-title {
