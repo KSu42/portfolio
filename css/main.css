@@ -32,12 +32,17 @@
 	margin-top: 40px;
 }
 
+.featured {
+	margin: 20px 10px 80px 10px;
+}
+
 .featured-img {
-	max-width: 300px;
+	max-width: 280px;
 }
 
 .featured-item {
-	margin: 20px 40px;
+	flex-grow: 1;
+	flex-shrink: 0;
 }
 
 .featured-title {
@@ -110,6 +115,12 @@
 	.featured-item {
 		flex-grow: 1;
 		flex-shrink: 0;
+	}
+	.row-top {
+		max-width: 50%;
+	}
+	.row-btm {
+		max-width: 100%;
 	}
 	.featured-title {
 		font-size: 28px;
