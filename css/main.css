@@ -40,22 +40,24 @@
 	margin: 20px 40px;
 }
 
-.text-heading {
+.featured-title {
 	font-size: 6vw;
 }
 
-/* heading size boost */
+.featured-text {
+	font-size: 18px;
+}
 
-.text-heading-1 {
+.container-heading {
 	font-size: 8vw;
 }
 
-.text-item {
-	font-size: 5vw;
+.header-name {
+	font-size: 10vw;
 }
 
-.text-header-name {
-	font-size: 10vw;
+.header-desc {
+	font-size: 5vw;
 }
 
 /*
@@ -71,17 +73,20 @@
 }
 
 @media screen and (min-width: 450px) {
-	.text-header-name {
-		font-size: 35px;
+	.header-name {
+		font-size: 40px;
 	}
-	.text-item {
+	.header-desc {
 		font-size: 18px;
 	}
-	.text-heading-1 {
-		font-size: 30px;
+	.container-heading {
+		font-size: 35px;
 	}
-	.text-heading {
-		font-size: 16px;
+	.featured-title {
+		font-size: 26px;
+	}
+	.featured-text {
+		font-size: 20px;
 	}
 }
 
@@ -106,20 +111,20 @@
 		flex-grow: 1;
 		flex-shrink: 0;
 	}
+	.featured-title {
+		font-size: 28px;
+	}
+	.header-desc {
+		font-size: 22px;
+	}
+	.container-heading {
+		font-size: 35px;
+	}
 	.header-img {
 		height: 150px;
 	}
-	.text-header-name {
-		font-size: 40px;
-	}
-	.text-item {
-		font-size: 22px;
-	}
-	.text-heading-1 {
-		font-size: 35px;
-	}
-	.text-heading {
-		font-size: 18px;
+	.header-name {
+		font-size: 45px;
 	}
 }
 
