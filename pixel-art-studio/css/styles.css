@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background: -webkit-linear-gradient(to right, #02111D, #037BB5, #02111D);
+    background: linear-gradient(to right, #48414B, #1F45FE, #48414B);
+}
+
+h1 {
+    font: normal 85px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.neonEffect {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    cursor: default;
+    opacity: 1;
+    margin: 0.1em;
+    padding: 0px;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow:
+        0 0 10px rgba(255,255,255,1) ,
+        0 0 20px rgba(255,255,255,1) ,
+        0 0 30px rgba(255,255,255,1) ,
+        0 0 40px #C700DD , 0 0 70px #C700DD ,
+        0 0 80px #C700DD , 0 0 100px #C700DD ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.neonEffect:hover {
+    text-shadow:
+        0 0 10px rgba(255,255,255,1) ,
+        0 0 20px rgba(255,255,255,1) ,
+        0 0 30px rgba(255,255,255,1) ,
+        0 0 40px #00ffff , 0 0 70px #00ffff ,
+        0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+.largerFont {
+    font: normal 45px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.largeFont {
+    font: normal 40px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.mediumFont {
+    font: normal 20px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.smallFont {
+    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.buttonStyle {
+    border-radius: 8px;
+    border: 2px dashed black;
+    padding: 4px;
+}
+
+/*.sizeSection {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.colorSection {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}*/
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
