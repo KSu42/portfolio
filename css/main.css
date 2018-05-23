@@ -12,6 +12,17 @@
 	max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+p {
+	color: #333333;
+}
+
+.hero {
+	background-color: #172118;
+}
+
 .hero-img {
 	width: 100%;
 	max-width: 675px;
