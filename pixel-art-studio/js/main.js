@@ -3,7 +3,7 @@ $(document).ready(function() {
 	console.log('bonjour');
 
 	// Define variables
-	const submitButton = $("input[type='button']");
+	const submitButton = $("input[type='submit']");
 	const designCanvas = $("#pixelCanvas");
 
 	// Submit button
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 		// store values from size input to use for makeGrid
 		const height = $("#inputHeight").val();
-		const width = $('#inputWeight').val();
+		const width = $('#inputWidth').val();
 
 		// clear canvas before drawing
 		designCanvas.empty();
