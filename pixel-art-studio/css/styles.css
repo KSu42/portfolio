@@ -70,7 +70,7 @@ h1 {
     font: normal 15px/normal "Monoton", Helvetica, sans-serif;
 }
 
-.buttonStyle {
+.submitStyle {
     border-radius: 8px;
     border: 2px dashed black;
     padding: 4px;
