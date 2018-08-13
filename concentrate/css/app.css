@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Coda', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*
+ * Styles for the deck of cards
+ */
+
+.deck {
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #2e3d49;
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+    transform: rotateY(0);
+    background: #02b3e4;
+    cursor: default;
+    font-size: 50px;
+}
+
+/* .deck .card.show {
+    font-size: 33px;
+} */
+
+.deck .card.match {
+    cursor: default;
+    background: #02ccba;
+    font-size: 50px;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 0 5px 0 0;
+    font-size: 25px;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: flex;
+}
+
+.score-panel .restart {
+    display: flex;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.neonEffect:hover {
+    text-shadow:
+        0 0 10px rgba(255,255,255,1) ,
+        0 0 20px rgba(255,255,255,1) ,
+        0 0 30px rgba(255,255,255,1) ,
+        0 0 40px #00ffff , 0 0 70px #00ffff ,
+        0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+.smallFont {
+    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.submitStyle {
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 4px;
+}
