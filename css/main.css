@@ -15,7 +15,7 @@
 h1,
 h2,
 h3,
-p {
+.p-text {
 	color: #333333;
 }
 
@@ -90,12 +90,26 @@ body {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
 }
+
+.icon {
+	color: #333333;
+}
+
+/* .icon:hover {
+	color: #4c6ef5;
+} */
+
+.spins:hover {
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear;
+}
+
 /*
  *
  * Media Queries
@@ -112,15 +126,19 @@ body {
 	.header-name {
 		font-size: 40px;
 	}
+
 	.header-desc {
 		font-size: 18px;
 	}
+
 	.container-heading {
 		font-size: 34px;
 	}
+
 	.featured-title {
 		font-size: 26px;
 	}
+
 	.featured-text {
 		font-size: 20px;
 	}
@@ -130,6 +148,7 @@ body {
 	.container-top {
 		margin-top: 0px;
 	}
+
 	.header {
 		align-items: center;
 		display: flex;
@@ -139,27 +158,34 @@ body {
 		padding: 10px 20px;
 		margin-top: 10px;
 	}
+
 	.featured {
 		display: flex;
 		flex-wrap: wrap;
 	}
+
 	.featured-item {
 		flex-grow: 1;
 		flex-shrink: 0;
 		max-width: 50%;
 	}
+
 	.featured-title {
 		font-size: 28px;
 	}
+
 	.header-desc {
 		font-size: 22px;
 	}
+
 	.container-heading {
 		font-size: 34px;
 	}
+
 	.header-img {
 		height: 150px;
 	}
+
 	.header-name {
 		font-size: 44px;
 	}
@@ -171,9 +197,11 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	.row-top {
 		max-width: 50%;
 	}
+
 	/* .row-btm {
 		max-width: 100%;
 	} */
