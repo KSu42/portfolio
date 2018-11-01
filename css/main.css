@@ -100,6 +100,13 @@ body {
 	color: #333333;
 }
 
+.h2ul {
+	-webkit-text-decoration: #333333 solid underline;
+	text-decoration: #333333 solid underline;
+	-webkit-text-decoration-skip: h2ul;
+	text-decoration-skip: h2ul;
+}
+
 /* .icon:hover {
 	color: #4c6ef5;
 } */
