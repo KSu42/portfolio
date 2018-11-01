@@ -283,17 +283,17 @@ function playSounds(sound) {
 
 // sounds:
 // card match
-let audio1 = new Audio;
+let audio1 = new Audio();
 // game win
-let audio2 = new Audio;
+let audio2 = new Audio();
 // card mismatch 1
-let audio3 = new Audio;
+let audio3 = new Audio();
 // card mismatch 2
-let audio4 = new Audio;
+let audio4 = new Audio();
 // game start
-let audio5 = new Audio;
+let audio5 = new Audio();
 // game loss
-let audio6 = new Audio;
+let audio6 = new Audio();
 
 function sfxSelect(evt) {
 	switch (evt.target.value) {
