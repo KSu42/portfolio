@@ -42,7 +42,7 @@ select {
 
 .deck {
     width: 660px;
-    min-height: 680px;
+    min-height: 660px;
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     padding: 32px;
     border-radius: 10px;
@@ -95,14 +95,13 @@ select {
     justify-content: space-between;
     text-align: left;
     width: 600px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .score-panel .stars {
     margin: 0;
     padding: 0;
     display: flex;
-    margin: 0 5px 0 0;
     font-size: 25px;
 }
 
@@ -134,4 +133,17 @@ select {
     border-radius: 8px;
     border: 2px solid black;
     padding: 4px;
+}
+
+@media screen and (min-width: 800px) {
+    .deck {
+        width: 600px;
+        min-height: 600px;
+    }
+    
+    .deck .card {
+        height: 110px;
+        width: 110px;
+    }
+    
 }
